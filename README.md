@@ -1,1 +1,3 @@
 # Minecraft_free_command_block_plugin
+
+誰でも自由に使えるコマンドブロックのようなディスペンサーの機能追加
