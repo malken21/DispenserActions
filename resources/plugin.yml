@@ -1,0 +1,8 @@
+name: Free_command_block
+version: '${version}'
+main: marumasa.free_command_block.minecraft
+api-version: 1.16
+authors: [ marumasa ]
+commands:
+  blocksoundo:
+    description: "test"
