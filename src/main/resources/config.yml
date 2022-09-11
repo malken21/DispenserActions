@@ -1,0 +1,19 @@
+playSound:
+  lore:
+    sound: "§eサウンド "
+    volume: "§e音量 "
+    pitch: "§eピッチ "
+    category: "§eカテゴリ "
+  maxVolume: 2
+  maxPitch: 3
+
+stopSound:
+  lore:
+    sound: "§eサウンド "
+    distance: "§e距離 "
+    category: "§eカテゴリ "
+  maxDistance: 32
+
+sendMessage:
+  lore:
+    text: "%d行目: "
