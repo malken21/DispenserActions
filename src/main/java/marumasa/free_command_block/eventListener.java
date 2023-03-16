@@ -1,5 +1,6 @@
 package marumasa.free_command_block;
 
+import marumasa.free_command_block.data.SoundPlay;
 import marumasa.free_command_block.dispenser.Message.sendMessage;
 import marumasa.free_command_block.dispenser.Sound.playSound;
 import marumasa.free_command_block.dispenser.Sound.stopSound;
@@ -25,6 +26,7 @@ public class eventListener implements Listener {
     @EventHandler
     public void onDispense(BlockDispenseEvent event) {
         ItemStack item = event.getItem();
+
 
         if (item.getType() == Material.NOTE_BLOCK) {
             new playSound(minecraft, item, event, config);

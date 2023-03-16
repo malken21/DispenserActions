@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Config {
 
-    public final Map<String, String> playSound_S = new HashMap<>();
+    public final Map<String, String> playSoundLore = new HashMap<>();
     public final Map<String, Float> playSound_F = new HashMap<>();
 
     public final Map<String, String> stopSound_S = new HashMap<>();
@@ -18,10 +18,10 @@ public class Config {
         FileConfiguration config = plugin.getConfig();
 
         //-----表示名-----//
-        playSound_S.put("sound", config.getString("playSound.lore.sound"));//サウンド
-        playSound_S.put("volume", config.getString("playSound.lore.volume"));//ボリューム
-        playSound_S.put("pitch", config.getString("playSound.lore.pitch"));//ピッチ
-        playSound_S.put("category", config.getString("playSound.lore.category"));//サウンドカテゴリ
+        playSoundLore.put("sound", config.getString("playSound.lore.sound"));//サウンド
+        playSoundLore.put("volume", config.getString("playSound.lore.volume"));//ボリューム
+        playSoundLore.put("pitch", config.getString("playSound.lore.pitch"));//ピッチ
+        playSoundLore.put("category", config.getString("playSound.lore.category"));//サウンドカテゴリ
         //-----設定-----//
         playSound_F.put("maxVolume", (float) config.getDouble("playSound.maxVolume"));//最大ボリューム
         playSound_F.put("maxPitch", (float) config.getDouble("playSound.maxPitch"));//最大ピッチ
