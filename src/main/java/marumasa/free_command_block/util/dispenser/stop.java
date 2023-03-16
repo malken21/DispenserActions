@@ -7,12 +7,13 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 public class stop extends BukkitRunnable {
     private final Player PLAYER;
-    public stop(Player player){
+
+    public stop(Player player) {
         PLAYER = player;
     }
+
     @Override
-    public void run(){
+    public void run() {
         PLAYER.stopSound(Sound.BLOCK_DISPENSER_DISPENSE, SoundCategory.BLOCKS);
-        this.cancel();
     }
 }

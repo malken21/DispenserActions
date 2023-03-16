@@ -1,7 +1,7 @@
 package marumasa.free_command_block.dispenser.Message;
 
-import marumasa.free_command_block.util.dispenser.stop;
 import marumasa.free_command_block.minecraft;
+import marumasa.free_command_block.util.dispenser.stop;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockDispenseEvent;
@@ -9,7 +9,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.Collection;
-import java.util.List;
 
 public class sendMessage {
     public sendMessage(minecraft minecraft, ItemStack item, BlockDispenseEvent event) {
@@ -27,9 +26,9 @@ public class sendMessage {
                 if (distance <= 32) {//切り替え可にする予定
                     ItemMeta meta = item.getItemMeta();
                     if (meta == null) return;
-                    List<String> loreList = meta.getLore();
-                    String lore = String.join("\n",loreList);
-                    player.sendMessage(lore);
+                    //List<String> loreList = meta.getLore();
+                    //String lore = String.join("\n",loreList);
+                    //player.sendMessage(lore);
                 }
             }
         }
