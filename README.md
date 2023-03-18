@@ -1,2 +1,2 @@
-# Minecraft_free_command_block_Spigot
+# free_command_block
 誰でも自由に使えるコマンドブロックのようなディスペンサーの機能追加
