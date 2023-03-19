@@ -1,2 +1,2 @@
-# free_command_block
+# DispenserActions
 誰でも自由に使えるコマンドブロックのようなディスペンサーの機能追加
