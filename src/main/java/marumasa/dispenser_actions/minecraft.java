@@ -1,6 +1,6 @@
-package marumasa.free_command_block;
+package marumasa.dispenser_actions;
 
-import marumasa.free_command_block.config.Config;
+import marumasa.dispenser_actions.config.Config;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class minecraft extends JavaPlugin {

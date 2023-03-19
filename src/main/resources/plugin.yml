@@ -1,4 +1,4 @@
-name: FreeCMDB
+name: DispenserActions
 version: '${version}'
-main: marumasa.free_command_block.minecraft
+main: marumasa.dispenser_actions.minecraft
 api-version: 1.19

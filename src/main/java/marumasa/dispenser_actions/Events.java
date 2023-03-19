@@ -1,8 +1,8 @@
-package marumasa.free_command_block;
+package marumasa.dispenser_actions;
 
-import marumasa.free_command_block.config.Config;
-import marumasa.free_command_block.data.SoundPlay;
-import marumasa.free_command_block.data.SoundStop;
+import marumasa.dispenser_actions.config.Config;
+import marumasa.dispenser_actions.data.SoundPlay;
+import marumasa.dispenser_actions.data.SoundStop;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;

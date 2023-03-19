@@ -1,4 +1,4 @@
-package marumasa.free_command_block.util.sound;
+package marumasa.dispenser_actions.util.sound;
 
 import org.bukkit.SoundCategory;
 

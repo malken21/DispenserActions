@@ -1,4 +1,4 @@
-package marumasa.free_command_block.config;
+package marumasa.dispenser_actions.config;
 
 import org.bukkit.configuration.file.FileConfiguration;
 

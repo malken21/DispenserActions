@@ -1,6 +1,6 @@
-package marumasa.free_command_block.config;
+package marumasa.dispenser_actions.config;
 
-import marumasa.free_command_block.minecraft;
+import marumasa.dispenser_actions.minecraft;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public class Config {
